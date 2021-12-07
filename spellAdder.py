@@ -38,7 +38,7 @@ def createSpell():
             spellBook = []
         newSpell = {
             "name": name.get(),
-            "desc": desc.get("1.0", "end").rstrip("\n"),
+            "desc": "<p> " + desc.get("1.0", "end").rstrip("\n") + "</p>",
             "range": range.get(),
             "ritual": intToBool(ritualVar.get()),
             "duration": duration.get(),
@@ -65,7 +65,7 @@ def createSpell():
             newSpell["material_cost"] = intToBool(materialCostVar)
         # Only add higher level field if it's not empty
         if(higherLevel.get("1.0", "end") != "\n"):
-            newSpell["higher_level"] = higherLevel.get("1.0", "end").rstrip("\n")
+            newSpell["higher_level"] = "<p> " + higherLevel.get("1.0", "end").rstrip("\n") + "</p>"
         spellBook.append(newSpell)
     # Write appended json list to file
     with open(f"spellBooks/{spellBookFileName}.json", "w+") as spellBookFile:
