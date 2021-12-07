@@ -80,6 +80,18 @@ def uncompileSpells():
 
 def compileSpells():
     global hasCompiled
+    # Take all spellbooks in the folder and smash them into one json document
+    masterSpellList = []
+    for filename in os.listdir("spellBooks/"):
+        with open(f"spellBooks/{filename}", "r") as spellBookFile:
+            try:
+                masterSpellList = masterSpellList + json.load(spellBookFile)
+            except:
+                messagebox.showerror(title="ERROR", message=f"Invalid JSON file {filename}")
+                return
+    masterSpellString = f"var spells = {json.dumps(masterSpellList, indent=2)}"
+    with open(f"spells.js", "w+") as spellBookFile:
+        spellBookFile.write(masterSpellString)
     ttk.Style().configure("compileStyle.TButton", background="green")
     hasCompiled = True
 
