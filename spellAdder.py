@@ -81,7 +81,7 @@ def uncompileSpells():
 def compileSpells():
     global hasCompiled
     # Take all spellbooks in the folder and smash them into one json document
-    masterSpellList = []
+    masterSpellList = json.load(open("spells.json"))
     for filename in os.listdir("spellBooks/"):
         with open(f"spellBooks/{filename}", "r") as spellBookFile:
             try:
