@@ -77,5 +77,30 @@
     "somatic": true,
     "source": "UA7MM",
     "page": 69
+  },
+  {
+    "name": "On/Off",
+    "desc": "<p> This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by On/Off.</p>",
+    "range": "60 feet",
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 0,
+    "school": "Transmutation",
+    "class": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "level_desc": "Cantrip",
+    "class_desc": "Sorcerer, Warlock, Wizard",
+    "range_desc": "60 feet",
+    "component_desc": "V, S",
+    "verbal": true,
+    "material": false,
+    "somatic": true,
+    "source": "UA7MM",
+    "page": 69
   }
 ]
