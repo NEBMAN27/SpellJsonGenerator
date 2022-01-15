@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Borrowed Knowledge",
+    "desc": "<p> You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p>",
+    "range": "Self",
+    "ritual": false,
+    "duration": "1 hour",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 2,
+    "school": "Divination",
+    "class": [
+      "Bard",
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "level_desc": "2nd-level",
+    "class_desc": "Bard, Cleric, Warlock, Wizard",
+    "range_desc": "Self",
+    "component_desc": "V, S, M",
+    "verbal": true,
+    "material": true,
+    "somatic": true,
+    "source": "SCC",
+    "page": 69,
+    "material_desc": "a book worth at least 25 gp",
+    "material_cost": true
+  },
+  {
+    "name": "Wither and Bloom",
+    "desc": "<p> You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.\n\nIn addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.</p>",
+    "range": "60 feet",
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 2,
+    "school": "Necromancy",
+    "class": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "level_desc": "2nd-level",
+    "class_desc": "Druid, Sorcerer, Wizard",
+    "range_desc": "60 feet",
+    "component_desc": "V, S, M",
+    "verbal": true,
+    "material": true,
+    "somatic": true,
+    "source": "SCC",
+    "page": 69,
+    "material_desc": "a withered vine twisted into a loop",
+    "material_cost": true,
+    "higher_level": "<p> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot above 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd.</p>"
+  }
+]

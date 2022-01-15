@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Galder's Tower",
+    "desc": "<p> You conjure a two-story tower made of stone, wood, or similar suitably sturdy materials. The tower can be round or square in shape. Each level of the tower is 10 feet tall and has an area of up to 100 square feet. Access between levels consists of a simple ladder and hatch. Each level takes one of the following forms, chosen by you when you cast the spell:\n\n    A bedroom with a bed, chairs, chest, and magical fireplace\n\n    A study with desks, books, bookshelves, parchments, ink, and ink pens\n\n    A dining space with a table, chairs, magical fireplace, containers, and cooking utensils\n\n    A lounge with couches, armchairs, side tables and footstools\n\n    A washroom with toilets, washtubs, a magical brazier, and sauna benches\n\n    An observatory with a telescope and maps of the night sky\n\n    An unfurnished, empty room\n\nThe interior of the tower is warm and dry, regardless of conditions outside. Any equipment or furnishings conjured with the tower dissipate into smoke if removed from it. At the end of the spell\u2019s duration, all creatures and objects within the tower that were not created by the spell appear safely outside on the ground, and all traces of the tower and its furnishings disappear.\n\nYou can cast this spell again while it is active to maintain the tower\u2019s existence for another 24 hours. You can create a permanent tower by casting this spell in the same location and with the same configuration every day for one year.</p>",
+    "range": "30 feet",
+    "ritual": false,
+    "duration": "24 hours",
+    "concentration": false,
+    "casting_time": "10 minutes",
+    "level": 3,
+    "school": "Conjuration",
+    "class": [
+      "Wizard"
+    ],
+    "level_desc": "3rd-level",
+    "class_desc": "Wizard",
+    "range_desc": "30 feet",
+    "component_desc": "V, S, M",
+    "verbal": true,
+    "material": true,
+    "somatic": true,
+    "source": "LLK",
+    "page": 69,
+    "material_desc": "a fragment of stone, wood, or other building material",
+    "material_cost": true,
+    "higher_level": "<p> When you cast this spell using a spell slot of 4th level or higher, the tower can have one additional story for each slot level beyond 3rd.</p>"
+  }
+]
