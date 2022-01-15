@@ -1,4 +1,9 @@
-# A helper tool for my fork of colinmarc's DND spellbook
-Simply fill out the fields, save to a JSON of choice, and click compile to generate a compatible spells.js out of all spellbooks in the spellbooks file.
+# A helper tool for Colinmarc's DND spellbook
+Fill out the fields, save to a JSON of choice, and click compile to generate a compatible spells.js out of all spellbooks in the spellbooks file.
 
-Then, it can be used by my fork of colinmarc's site.
+Then, upload and replace the spell.js [at my fork](https://github.com/dino-inc/DNDSpells) to add the spells to the site. Or, fork the repo and use Github Pages to host one yourself.
+
+# Requirements
+<ul>
+  <li>Python 3.10</li>
+</ul>
