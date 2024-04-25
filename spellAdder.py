@@ -7,6 +7,10 @@ import os
 
 hasCompiled = True
 
+target_directory = "C:\\Users\\ben\\Documents\\GitHub\\SpellJsonGenerator"
+
+os.chdir(target_directory)
+
 def startup():
     compileSpells()
 
